@@ -37,10 +37,10 @@ There are 2 required directories listed below:
   * eng.train
   * eng.train54019
   * glove.6B.100d.txt
-   * Download GloVe vectors and extract glove.6B.100d.txt into "Question_2/data" folder.
-   ```
-   wget http://nlp.stanford.edu/data/glove.6B.zip
-   ```
+    * Download GloVe vectors and extract glove.6B.100d.txt into "Question_2/data" folder.
+    ```
+    wget http://nlp.stanford.edu/data/glove.6B.zip
+    ```
   * mapping.pkl
 * Question_2/models
   * pre-trained-model
