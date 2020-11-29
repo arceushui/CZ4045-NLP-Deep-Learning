@@ -1,4 +1,4 @@
-# CZ4045-NLP-DL-Task-2
+# CZ4045-NLP-Deep-Learning
 
 # Training Codes
 ## Question 1
