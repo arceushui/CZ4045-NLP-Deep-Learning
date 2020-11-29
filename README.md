@@ -44,9 +44,11 @@ https://pytorch.org/get-started/locally/
 
 # Dataset directories
 ## 1. Word-based model
-The FNN directory has the script for data.
-
-`FNN/data.py`
+The dataset directory and contents are listed below.
+* FNN/data
+  * wikitext-2/test.txt
+  * wikitext-2/train.txt
+  * wikitext-2/valid.txt
 
 ## 2. Named Entity Recognition
 There are 2 required directories listed below:
