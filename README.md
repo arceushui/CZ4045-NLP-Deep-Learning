@@ -44,6 +44,29 @@ https://pytorch.org/get-started/locally/
 
 # Dataset directories
 ## 1. Word-based model
+The FNN directory has the script for data.
+
+`FNN/data.py`
+
+## 2. Named Entity Recognition
+There are 2 required directories listed below:
+* Question_2/data
+  * eng.testa
+  * eng.testb
+  * eng.train
+  * eng.train54019
+  * glove.6B.100d.txt
+    * Download GloVe vectors and extract glove.6B.100d.txt into "Question_2/data" folder.
+    ```
+    wget http://nlp.stanford.edu/data/glove.6B.zip
+    ```
+  * mapping.pkl
+* Question_2/models
+  * pre-trained-model
+  * self-trained-model
+
+# Usage Guide
+## 1. Word-based model
 Change to the working directory.
 ```
 $ cd FNN
@@ -65,26 +88,6 @@ To display description of each parameters, type this in the command.
 ```
 $ python FNN.py --help
 ```
-
-## 2. Named Entity Recognition
-There are 2 required directories listed below:
-* Question_2/data
-  * eng.testa
-  * eng.testb
-  * eng.train
-  * eng.train54019
-  * glove.6B.100d.txt
-    * Download GloVe vectors and extract glove.6B.100d.txt into "Question_2/data" folder.
-    ```
-    wget http://nlp.stanford.edu/data/glove.6B.zip
-    ```
-  * mapping.pkl
-* Question_2/models
-  * pre-trained-model
-  * self-trained-model
-
-# Usage Guide
-## 1.
 
 ## 2. Named Entity Recognition
 We provide the options to change the value of parameters of Word CNN in the `Define constants and parameters` block. Below is the example of parameters in the code.
