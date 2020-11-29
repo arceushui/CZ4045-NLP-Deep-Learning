@@ -101,16 +101,6 @@ parameters['max_pooling'] = True # use of max pooling. True when it is used.
 ```
 Run all the code in the notebook.
 
-Important outputs are under the `Training Step` block.
-
-Outputs Explanation (Example):
-* Train: new_F: 0.8630311400763935 best_F: 0.8807954224049779 => the best F1 score and new F1 score for training data
-* Dev: new_F: 0.7551980833404637 best_F: 0.7975013014055179 => the best F1 score and new F1 score for validation data
-* Test: new_F: 0.6472667935817242 best_F: 0.6999357857077333  => the best F1 score and new F1 score for test data
-* Graph: This is the graph generated in the final output. It illustrates the loss in different iterations.
-
-We evaluate the best F1 score in our report.
-
 # Tasks outputs
 ## 1. Word-based model
 The output is generated during the run.
@@ -126,3 +116,13 @@ In here valid loss and valid ppl refers to validation loss and validation perple
 
 ## 2. Named Entity Recognition 
 The output are described in the Jupyter notebook.
+
+Important outputs are under the `Training Step` block.
+
+Outputs Explanation (Example):
+* Train: new_F: 0.8630311400763935 best_F: 0.8807954224049779 => the best F1 score and new F1 score for training data
+* Dev: new_F: 0.7551980833404637 best_F: 0.7975013014055179 => the best F1 score and new F1 score for validation data
+* Test: new_F: 0.6472667935817242 best_F: 0.6999357857077333  => the best F1 score and new F1 score for test data
+* Graph: This is the graph generated in the final output. It illustrates the loss in different iterations.
+
+We evaluate the best F1 score in our report.
