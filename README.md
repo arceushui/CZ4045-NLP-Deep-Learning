@@ -110,7 +110,17 @@ Outputs Explanation (Example):
 We evaluate the best F1 score in our report.
 
 # Tasks outputs
-## 1.
+## 1. Word-based model
+The output is generated during the run.
+```
+| epoch   1 |   400/14918 batches  | ms/batch 23.37 | loss  6.76 | ppl   864.78
+```
+The program will update based on --log-interval specified the "loss" and "ppl" here refers to training loss and training perplexity.
+After each epoch, the model is tested on validation data which will output
+```
+| end of epoch   1 | time: 331.87s | valid loss  5.84 | valid ppl   344.75
+```
+In here valid loss and valid ppl refers to validation loss and validation perplexity respectively.
 
 ## 2. Named Entity Recognition 
 The output are described in the Jupyter notebook.
