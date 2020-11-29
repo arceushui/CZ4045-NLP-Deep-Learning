@@ -2,6 +2,18 @@
 
 # Training Codes
 ## Question 1
+The FNN directory has all python scripts for the assignment. 
+```
+$ cd FNN
+```
+Contents:
+* data.py
+* FNN.py
+* generate.py
+* model.py
+* test.py
+* FNNresults
+* model
 
 ## Question 2
 The training is done using Jupyter Notebook. The filename is listed below.
@@ -10,6 +22,10 @@ The training is done using Jupyter Notebook. The filename is listed below.
 
 # Python Version
 * Python 3.7
+
+# Results directory
+The training and validation training results are saved in ./FNNresults as default.
+The weights of the models are saved in ./model as default. It only contains the result of Question 1.
 
 # Installation Guide
 Make sure you have the libraries below installed in your machine.
@@ -27,7 +43,28 @@ For pytorch, follow the instructions in the link below to complete the installio
 https://pytorch.org/get-started/locally/
 
 # Dataset directories
-## 1.
+## 1. Word-based model
+Change to the working directory.
+```
+$ cd FNN
+```
+Start running using the following command
+
+```
+$ python FNN.py
+```
+
+You can specify additional hyperparameters of the model by adding --{parameter} after FNN.py.
+
+Example:
+```
+$ python FNN.py --emsize 200 --nhid 250 --cuda --dropout 0.5
+```
+
+To display description of each parameters, type this in the command.
+```
+$ python FNN.py --help
+```
 
 ## 2. Named Entity Recognition
 There are 2 required directories listed below:
