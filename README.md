@@ -24,8 +24,8 @@ The training is done using Jupyter Notebook. The filename is listed below.
 * Python 3.7
 
 # Results directory
-The training and validation training results are saved in ./FNNresults as default.
-The weights of the models are saved in ./model as default. It only contains the result of Question 1.
+The training and validation training results are saved in FNN/FNNresults as default.
+The weights of the models are saved in FNN/model as default. It only contains the result of Question 1.
 
 # Installation Guide
 Make sure you have the libraries below installed in your machine.
